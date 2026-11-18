@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Creative Studio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.14.2/gsap.min.js"></script>
+
+    <!-- ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.14.2/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+    <section class="hero">
+
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="assets/background.mp4" type="video/mp4">
+        </video>
+
+        <div class="overlay"></div>
+
+        <nav>
+            <h2>STUDIO.</h2>
+            <a href="#services">Explore</a>
+        </nav>
+
+        <div class="hero-content">
+            <p class="reveal">CREATIVE DIGITAL EXPERIENCE</p>
+
+            <h1 class="reveal">
+                CREATE<br>
+                SOMETHING<br>
+                DIFFERENT.
+            </h1>
+
+            <p class="reveal">
+                We build digital experiences that inspire.
+            </p>
+        </div>
+
+        <div class="scroll-indicator">
+            SCROLL TO EXPLORE ↓
+        </div>
+
+    </section>
+
+
+    <section class="services" id="services">
+
+        <p>WHAT WE DO</p>
+
+        <h2 class="section-title">
+            We turn ideas into experiences.
+        </h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>01 / WEB DESIGN</h3>
+                <p>Beautiful digital experiences.</p>
+            </div>
+
+            <div class="card">
+                <h3>02 / DEVELOPMENT</h3>
+                <p>Modern and powerful websites.</p>
+            </div>
+
+            <div class="card">
+                <h3>03 / INTERACTION</h3>
+                <p>Animations that bring ideas to life.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
