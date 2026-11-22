@@ -129,3 +129,63 @@
     gap: 30px;
   }
 }
+
+.animated-hero {
+  min-height: 100vh;
+  padding: 40px 8%;
+  background: radial-gradient(
+    circle at 70% 40%,
+    #432078,
+    #111 65%
+  );
+}
+
+.animated-hero nav {
+  position: relative;
+}
+
+.animated-content {
+  margin-top: 18vh;
+}
+
+.hero-title {
+  font-size: clamp(60px, 10vw, 130px);
+  line-height: .9;
+  letter-spacing: -6px;
+  margin: 30px 0;
+}
+
+.hero-label {
+  color: #bd9aff;
+  letter-spacing: 4px;
+}
+
+.hero-description {
+  color: #ccc;
+  line-height: 1.7;
+  max-width: 400px;
+}
+
+.hero-button {
+  margin-top: 35px;
+  padding: 16px 28px;
+  border: none;
+  border-radius: 30px;
+  background: #a77bff;
+  color: white;
+  cursor: pointer;
+}
+
+.card{
+  display: flex;
+  flex-grow:30%;
+  gap: 10px;
+  margin: 20px 0;
+}
+.card>*{
+  background-color: #ffffffa5;
+  color: #333;
+  padding: 10px;
+
+  border-radius: 5px;
+}

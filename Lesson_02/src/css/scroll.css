@@ -1,0 +1,17 @@
+
+.scroll-section {
+  min-height: 100vh;
+  padding: 150px 8%;
+  background: #171717;
+}
+
+.scroll-section p {
+  color: #a77bff;
+  letter-spacing: 4px;
+  margin-bottom: 35px;
+}
+
+.reveal-heading {
+  font-size: clamp(45px, 8vw, 110px);
+  line-height: 1;
+}
