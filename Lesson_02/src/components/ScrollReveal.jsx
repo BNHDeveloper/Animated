@@ -24,6 +24,11 @@ function ScrollReveal() {
           trigger: ".reveal-heading",
           start: "top 80%",
           toggleActions: "play none reverse restart"
+          /*  On entering the trigger.
+              On leaving the trigger.
+              On entering again from the opposite direction.
+              On leaving again.*/
+          //Action	Meaning /play	Play animation / pause	Pause animation / resume	Continue animation / reverse	Play backward / restart	Start again / reset	Return to initial state   / none	Do nothing
         }
 
       });
