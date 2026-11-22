@@ -40,12 +40,6 @@ function AnimatedHero() {
       .from(".hero-button", {
         scale: 0.8,
         opacity: 0
-      }, "-=0.5")
-
-      .from(".service-card", {
-        y:100,
-        scale: 0.8,
-        opacity: 0
       }, "-=0.5");
 
     }, heroRef);
@@ -81,11 +75,6 @@ function AnimatedHero() {
           DISCOVER OUR WORK ↗
         </button>
 
-      </div>
-      <div className="card">
-        <div className="service-card">service-card 01</div>
-        <div className="service-card">service-card 02</div>
-        <div className="service-card">Service card 03</div>
       </div>
     </section>
   );

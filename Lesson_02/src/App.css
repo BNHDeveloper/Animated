@@ -175,17 +175,3 @@
   color: white;
   cursor: pointer;
 }
-
-.card{
-  display: flex;
-  flex-grow:30%;
-  gap: 10px;
-  margin: 20px 0;
-}
-.card>*{
-  background-color: #ffffffa5;
-  color: #333;
-  padding: 10px;
-
-  border-radius: 5px;
-}

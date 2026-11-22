@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import "./App.css";
 import AnimatedHero from "./components/AnimatedHero";
 import ScrollReveal from "./components/ScrollReveal";
+import Services from "./components/Services";
+import ParallaxSection from "./components/ParallaxSection";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Hero />
        <ScrollReveal />
       <AnimatedHero/>
+      <ParallaxSection/>
+      <Services/>
     </main>
   );
 }
