@@ -1,0 +1,53 @@
+
+.pinned-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 5%;
+  background: #111;
+  color: white;
+  overflow: hidden;
+}
+
+.services-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.service-card {
+  min-height: 350px;
+  padding: 30px;
+  background: #222;
+  border: 1px solid #444;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service-card h3 {
+  font-size: 30px;
+}
+
+.service-card p {
+  color: #aaa;
+  line-height: 1.7;
+}
+
+.card-arrow {
+  font-size: 30px;
+  align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    min-height: 220px;
+  }
+}
