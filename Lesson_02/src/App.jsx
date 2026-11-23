@@ -6,8 +6,9 @@ import AnimatedHero from "./components/AnimatedHero";
 import ScrollReveal from "./components/ScrollReveal";
 // import Services from "./components/Services";
 // import ParallaxSection from "./components/ParallaxSection";
-import PinnedContent from "./components/PinnedContent";
-import HorizontalGallery from "./components/HorizontalGallery";
+// import PinnedContent from "./components/PinnedContent";
+// import HorizontalGallery from "./components/HorizontalGallery";
+import ScrollVideo from "./components/ScrollVideo";
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
       <Navbar />
       {/* <Hero /> */}
        <ScrollReveal />
+       <ScrollVideo />
       <AnimatedHero/>
       {/* <ParallaxSection/> */}
-      <PinnedContent/>
-      <HorizontalGallery/>
+      {/* <PinnedContent/> */}
+      {/* <HorizontalGallery/> */}
       {/* <Services/> */}
     </main>
   );
